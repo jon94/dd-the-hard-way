@@ -24,5 +24,16 @@ Read this section before continuing.
 ## Exercise
 - If you have access to AWS Sandbox on Datadog
   - Spin up EC2 Machine using AMI (java-docker) in region ap-south-1
-- Task 1
+  - Else just spin up a VM, install java and docker yourself.
+- Task 1: Setting up the Application on VM
+- [ ] Using the provided [.jar file](https://github.com/stackify/example-apps/raw/main/sample-java-petclinic/spring-petclinic-2.7.0.jar), your goal is to make sure you can access the application on the public IP of the VM that you have spun up earlier. Aim to run the Java Process in the background.
+- [ ] What is the PID of the java process that is running on the host?
+
+- Task 2: Installing the Datadog Agent in the VM
+- [ ] Using your provided Datadog sandbox account, install the latest Datadog Agent into the VM.
+- [ ] Add tags as part of the set up. env:challenge, team:sales-eng
+  - Think about tags and where it is being propagated.
+- [ ] Where can you find the PID of the java process in the datadog platform?
+- [ ] What metrics are collected by the agent? 
+
 
