@@ -53,7 +53,8 @@ Read this section before continuing.
 - [ ] What are some potential limitations for SSI today?
 
 ### Part 2: Container Level Familiarization
-You do not need to remove the Java App. You can leave it running as per previous set up.
+You do not need to remove the Java App. You can leave it running as per previous set up. However, uninstall single step instrumentation and re-instrument it using the other method.
+
 - **Task 2-1: Infra - Setting up the containerized agent**
 - [ ] Uninstall the host based agent and install the datadog agent in the docker layer.
 - [ ] What other extra telemetry is collected now?
@@ -62,4 +63,5 @@ You do not need to remove the Java App. You can leave it running as per previous
 - **Task 2-2: Logs - Use the Datadog Agent to collect Logs from your running Java App** 
 - [ ] Use the datadog agent in the docker layer to collect logs from the Java App.
 
-- **Task 2-3: APM - to be continued....**
+- **Task 2-3: APM - Use the Datadog Agent to collect Traces**
+- [ ] Set up the collection of APM using the Datadog Docker Agent.
